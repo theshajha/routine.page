@@ -1,34 +1,69 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Routine.Page
+
+## Description
+
+Routine.Page is a web application that allows users to build, share, and save daily routines. The application is built using Next.js, Shad UI, Tiptap, and Firebase.
+
+## Features
+
+- Create and edit your daily routine
+- Share your routine with others
+- Save routines that inspire you
+- Rich text editing and image upload capabilities
+
+## Technology Stack
+
+- Frontend: Next.js
+- Backend: Next.js API Routes
+- Database: Firebase
+- Text Editor: Tiptap
+- UI Library: Shad UI
+- State Management: React's Context API and React Query
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+- Node.js
+- Yarn
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Installation
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. Clone the repository
+    ```bash
+    git clone [Your-GitHub-Repo-URL]
+    ```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+2. Navigate to the project directory
+    ```bash
+    cd routine-page
+    ```
 
-## Learn More
+3. Install dependencies
+    ```bash
+    yarn install
+    ```
 
-To learn more about Next.js, take a look at the following resources:
+4. Run the development server
+    ```bash
+    yarn dev
+    ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Deployment
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+The project can be deployed on Vercel or Netlify. Follow the respective documentation for deployment.
 
-## Deploy on Vercel
+- [Vercel Deployment Documentation](https://vercel.com/docs)
+- [Netlify Deployment Documentation](https://www.netlify.com/blog/2020/11/30/how-to-deploy-your-next.js-sites-to-netlify/)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Contributing
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+## License
+
+MIT License
+
+## Author
+
+Built by [@theshajha](https://twitter.com/theshajha)
